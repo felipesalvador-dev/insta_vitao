@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:insta_vitao/pages/home_page.dart';
 
 class InstagramApp extends StatelessWidget {
   const InstagramApp({super.key});
@@ -16,7 +17,7 @@ class InstagramApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
           useMaterial3: true,
       ),
-      home: 
+      home: HomePage(),
     );
   }
 }
